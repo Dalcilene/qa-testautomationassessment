@@ -16,9 +16,9 @@ After following these steps, the main project should be running and ready to use
 
 # Inconsistencies found in the documentation
 TC002 - Login (Negative)
-1. O resultado esperado "The application shows the message:
-Wrong username or password" não possui "." no final da frase, porém no sistema a mensagem é apresentada com ponto no final da frase.
-2. A Iteration 4 Usarname "demouser" e Password "abc123" são valores válidos de login, fazendo com que o teste falhe de forma desnecessária, pois já temos um teste de login com sucesso.
+1. The expected result "The application shows the message: 
+Wrong username or password" does not have a "." at the end of the sentence, but in the system, the message is presented with a period at the end of the sentence.
+2. In Iteration 4, the username "demouser" and password "abc123" are valid login values, causing the test to fail unnecessarily since we already have a successful login test.
 
 # Inconsistencies found in the project architecture
 1. The document lacks language identification or has an invalid lang attribute value, which does not conform to Standards and Guidelines 3.1.1 Language of Page (Level A).
